@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Ocean Bioluminescence — Shader Art Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="gallery-header">
+        <h1>Deep Ocean Bioluminescence</h1>
+        <p class="curatorial-text">
+            Dive into the ethereal depths where light becomes life. This collection explores the mesmerizing phenomenon of bioluminescence through procedural shader art, capturing the dreamlike quality of deep-sea organisms that paint the darkness with living light. Each piece is a meditation on the intersection of organic motion and digital luminescence.
+        </p>
+        <div class="palette-display">
+            <span class="palette-dot" style="background: #0a0e27;"></span>
+            <span class="palette-dot" style="background: #00d4ff;"></span>
+            <span class="palette-dot" style="background: #ff006e;"></span>
+            <span class="palette-dot" style="background: #7b2fff;"></span>
+            <span class="palette-dot" style="background: #00ffa3;"></span>
+        </div>
+    </header>
+
+    <main class="gallery-grid">
+        <article class="piece-card" data-palette="#00d4ff,#7b2fff">
+            <a href="pieces/piece-1.html" class="card-link">
+                <div class="card-content">
+                    <h2>Abyssal Drift</h2>
+                    <span class="technique-tag">Flow Field + FBM</span>
+                    <p class="piece-description">Jellyfish-like tendrils flow through layered noise currents, creating organic trails of cyan and violet light.</p>
+                    <div class="card-palette">
+                        <span class="palette-dot" style="background: #00d4ff;"></span>
+                        <span class="palette-dot" style="background: #7b2fff;"></span>
+                    </div>
+                </div>
+            </a>
+        </article>
+
+        <article class="piece-card" data-palette="#00ffa3,#00d4ff">
+            <a href="pieces/piece-2.html" class="card-link">
+                <div class="card-content">
+                    <h2>Plankton Constellation</h2>
+                    <span class="technique-tag">Voronoi + Metaballs</span>
+                    <p class="piece-description">Thousands of glowing microorganisms cluster and disperse, their collective light forming shifting constellations.</p>
+                    <div class="card-palette">
+                        <span class="palette-dot" style="background: #00ffa3;"></span>
+                        <span class="palette-dot" style="background: #00d4ff;"></span>
+                    </div>
+                </div>
+            </a>
+        </article>
+
+        <article class="piece-card" data-palette="#ff006e,#7b2fff">
+            <a href="pieces/piece-3.html" class="card-link">
+                <div class="card-content">
+                    <h2>Bioluminescent Bloom</h2>
+                    <span class="technique-tag">Reaction-Diffusion</span>
+                    <p class="piece-description">Coral-like patterns pulse and grow, simulating the chemical reactions that produce living light in deep-sea organisms.</p>
+                    <div class="card-palette">
+                        <span class="palette-dot" style="background: #ff006e;"></span>
+                        <span class="palette-dot" style="background: #7b2fff;"></span>
+                    </div>
+                </div>
+            </a>
+        </article>
+
+        <article class="piece-card" data-palette="#00d4ff,#00ffa3">
+            <a href="pieces/piece-4.html" class="card-link">
+                <div class="card-content">
+                    <h2>Hadal Vortex</h2>
+                    <span class="technique-tag">Domain Warping + Kaleidoscope</span>
+                    <p class="piece-description">Recursive noise distortions create a hypnotic spiral of bioluminescent energy, drawing the eye into infinite depths.</p>
+                    <div class="card-palette">
+                        <span class="palette-dot" style="background: #00d4ff;"></span>
+                        <span class="palette-dot" style="background: #00ffa3;"></span>
+                    </div>
+                </div>
+            </a>
+        </article>
+
+        <article class="piece-card" data-palette="#7b2fff,#ff006e">
+            <a href="pieces/piece-5.html" class="card-link">
+                <div class="card-content">
+                    <h2>Midnight Aurora</h2>
+                    <span class="technique-tag">Aurora Curtain + FBM</span>
+                    <p class="piece-description">Vertical waves of bioluminescent light ripple through the water column like an underwater aurora borealis.</p>
+                    <div class="card-palette">
+                        <span class="palette-dot" style="background: #7b2fff;"></span>
+                        <span class="palette-dot" style="background: #ff006e;"></span>
+                    </div>
+                </div>
+            </a>
+        </article>
+    </main>
+
+    <footer class="gallery-footer">
+        <p>Generated by Shader Art Gallery • All pieces are procedural WebGL shaders</p>
+    </footer>
+
+    <script src="gallery.js"></script>
+</body>
+</html>
